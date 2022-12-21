@@ -19,12 +19,12 @@ header {
     justify-content: space-between;
     align-items: center;
     transition: 0.8s;
-    padding: 6vh 10vw;
+    padding: 6vh 12vw;
     z-index: 100000;
 }
 
 header.stickyScroll {
-    padding: 2.8vh 10vw;
+    padding: 2.8vh 12vw;
     background: #2E89A6;
 }
 
@@ -58,7 +58,7 @@ header ul li a {
     text-decoration: none;
     color: #fff;
     letter-spacing: 2px;
-    font-size: 1.2vw;
+    font-size: 1.1vw;
     font-weight: 500px;
     transition: 0.6s;
 }
@@ -106,12 +106,12 @@ header.stickyScroll ul li a {
 }
 
 #about p {
-    font-size: 1.5vw;
+    font-size: 1.3vw;
     margin-bottom: 7vh;
 }
 
 .content {
-    padding: 16vh 10vw 12vh;
+    padding: 16vh 12vw 12vh;
 }
 
 #pic {
@@ -135,4 +135,15 @@ header.stickyScroll ul li a {
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+#skillsPics {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+#skillsPics img {
+    /* height: 20vh; */
+    width: 18vw;
 }
