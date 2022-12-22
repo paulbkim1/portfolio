@@ -2,7 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 body {
@@ -168,9 +168,43 @@ header.stickyScroll ul li a {
     margin: 4vh 0;
 }
 
-.containerSpecific button {
-    width: 12vw;
-    margin-bottom: 5vh;
+.containerSpecific a {
+    width: 15vw;
+    margin-bottom: 4vh;
+    text-decoration: none;
     padding: 2vh 1vw;
-    font-size: 1vw;
+    border: 2px black;
+    font-size: 1.3vw;
+    text-align: center;
+    display: block;
+    transition: transform 0.5s;
+    backface-visibility: hidden;
+    background-color: #2E89A6;
+    border-radius: 8px;
+    color: white;
+}
+
+.containerSpecific a:hover {
+    box-shadow: 0 0 3px black;
+    transform: translateX(20px);
+}
+
+#contactContainer {
+    border: 2px black solid;
+    padding: 3vh 3vw;
+    display: flex;
+}
+
+#contactInfo {
+    flex: 7;
+    border: 2px rebeccapurple solid;
+}
+
+#contactInfo {
+    display: block;
+}
+
+#contactSocial {
+    flex: 4;
+    border: 2px red solid;
 }
