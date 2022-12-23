@@ -111,7 +111,7 @@ header.stickyScroll ul li a {
 }
 
 .content {
-    padding: 17.5vh 12vw 12vh;
+    padding: 17.5vh 12vw 2vh;
 }
 
 #pic {
@@ -190,21 +190,69 @@ header.stickyScroll ul li a {
 }
 
 #contactContainer {
-    border: 2px black solid;
-    padding: 3vh 3vw;
+    border-radius: 5px;
+    padding: 8vh 5vw;
     display: flex;
+    margin-top: 3vh;
+    gap: 5vw;
+    box-shadow: 0 0 7px black;
 }
 
 #contactInfo {
     flex: 7;
-    border: 2px rebeccapurple solid;
 }
 
-#contactInfo {
-    display: block;
+.formData {
+    display: flex;
+    flex-direction: column;
+    gap: 1.7vw;
+
+}
+
+.formData input {
+    height: 6vh;
+    font-size: 1.2rem;
+    border-radius: 7px;
+    padding: 1vw;
+}
+
+.formData textarea {
+    resize: vertical;
+    font-size: 1.2rem;
+    border-radius: 7px;
+    padding: 1vw;
+    height: 30vh;
+    border-color: black;
+}
+
+.formData button {
+    height: 7vh;
+    font-size: 1.2rem;
+    border-radius: 7px;
+    color: white;
+    background-color: #2E89A6;
 }
 
 #contactSocial {
     flex: 4;
-    border: 2px red solid;
+    display: flex;
+    flex-direction: column;
+    padding-left: 6vw;
+}
+
+#contactSocial a {
+    margin-top: 10vh;
+    text-decoration: none;
+    color: black;
+    font-size: 2vw;
+    font-weight: 900;
+}
+
+#contactSocial a img {
+    width: 2vw;
+    height: 4vh;
+}
+
+#contact {
+    margin-bottom: 8vh;
 }
