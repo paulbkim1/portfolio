@@ -41,16 +41,18 @@ header {
 }
 
 header.stickyScroll {
-    padding: 2.8vh 12vw;
+    padding: 2vh 12vw;
     background: #2E89A6;
 }
 
 header.stickyScroll ul li a:hover {
     color: black;
+    font-size: 1.5vw;
 }
 
 header.stickyScroll .logo:hover {
     color: black;
+    font-size: 3.5vw;
 }
 
 header .logo {
@@ -67,6 +69,7 @@ header .logo {
 
 header .logo:hover {
     color: black;
+    font-size: 3.5vw;
 }
 
 header ul {
@@ -94,6 +97,7 @@ header ul li a {
 
 header ul li a:hover {
     color: black;
+    font-size: 1.5vw;
 }
 
 #home {
@@ -222,6 +226,11 @@ header.stickyScroll ul li a {
 .containerSpecific a:hover {
     box-shadow: 0 0 3px black;
     transform: translateX(20px);
+}
+
+.containerSpecific iframe {
+    width: 100%;
+    margin-bottom: 1.2vh;
 }
 
 #contact {
