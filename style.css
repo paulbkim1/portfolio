@@ -36,7 +36,7 @@ header {
     justify-content: space-between;
     align-items: center;
     transition: 0.8s;
-    padding: 6vh 12vw;
+    padding: 5vh 12vw;
     z-index: 100000;
 }
 
@@ -55,7 +55,7 @@ header.stickyScroll .logo:hover {
     font-size: 3.5vw;
 }
 
-header .logo {
+.logo {
     position: relative;
     font-weight: 700;
     color: white;
@@ -67,7 +67,7 @@ header .logo {
     transition: 0.6s;
 }
 
-header .logo:hover {
+.logo:hover {
     color: black;
     font-size: 3.5vw;
 }
@@ -84,7 +84,7 @@ header ul li {
     list-style: none;
 }
 
-header ul li a {
+.nav-link {
     position: relative;
     margin: 0 1vw;
     text-decoration: none;
@@ -95,7 +95,7 @@ header ul li a {
     transition: 0.6s;
 }
 
-header ul li a:hover {
+.nav-link:hover {
     color: black;
     font-size: 1.5vw;
 }
@@ -114,51 +114,6 @@ header ul li a:hover {
     transition: all 0.3s ease-in-out;
     background-color: white;
 }
-
-@media(max-width:768px) {
-    .hamburger {
-        display: block;
-    }
-
-    .hamburger.active .bar:nth-child(2) {
-        opacity: 0;
-    }
-
-    .hamburger.active .bar:nth-child(1) {
-        transform: translateY(8px) rotate(45deg);
-    }
-
-    .hamburger.active .bar:nth-child(3) {
-        transform: translateY(-8px) rotate(-45deg);
-    }
-
-    .nav-menu {
-        position: fixed;
-        left: -100%;
-        top: 7.0vh;
-        gap: 0;
-        flex-direction: column;
-        background-color: #2E89A6;
-        width: 100%;
-        text-align: center;
-        transition: 0.3s;
-        opacity: 0.8;
-    }
-
-    .nav-menu li {
-        margin: 16px 0;
-    }
-
-    .nav-menu li a {
-        font-size: 1.7rem;
-    }
-
-    .nav-menu.active {
-        left: 0;
-    }
-}
-
-
 
 #home {
     position: relative;
@@ -209,7 +164,7 @@ header.stickyScroll ul li a {
 }
 
 .content {
-    padding: 17.5vh 12vw 2vh;
+    padding: 15vh 12vw 2vh;
 }
 
 #pic {
@@ -376,4 +331,100 @@ header.stickyScroll ul li a {
 #contactSocial a img {
     width: 2vw;
     height: 4vh;
+}
+
+
+@media(max-width:768px) {
+    header {
+        padding: 5vh 5vw;
+    }
+
+    header.stickyScroll {
+        padding: 2vh 5vw;
+        background: #2E89A6;
+    }
+
+    .content {
+        padding: 12vh 5vw 2vh;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 7.0vh;
+        gap: 0;
+        flex-direction: column;
+        background-color: #2E89A6;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+        opacity: 0.8;
+    }
+
+    .nav-menu li {
+        margin: 16px 0;
+    }
+
+    .nav-menu li a {
+        font-size: 1.7rem;
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .logo {
+        font-size: 6.5vw;
+    }
+
+    #home h1 {
+        font-size: 20vw;
+    }
+
+    #home p {
+        font-size: 5.5vw;
+    }
+
+    .title {
+        font-size: 9vw;
+    }
+    
+    #about p {
+        font-size: 3.5vw;
+        margin-bottom: 5vh;
+    }
+
+    #pic {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    #pic img {
+        width: 42vw;
+    }
+
+    #skillsPics img {
+        width: 35vw;
+    }
+
+    #projects h2 {
+        font-size: 6vw;
+    }
+
 }
