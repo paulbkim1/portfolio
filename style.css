@@ -203,6 +203,7 @@ header.stickyScroll ul li a {
 #projects h2 {
     margin-top: 4vh;
     font-size: 2vw;
+    color: #2E89A6;
 }
 
 .projectContainer {
@@ -427,4 +428,59 @@ header.stickyScroll ul li a {
         font-size: 6vw;
     }
 
+    .projectContainer {
+        display: block;
+    }
+
+    .containerSpecific {
+        width: 100%;
+    }
+
+    .containerSpecific a {
+        font-size: 3.7vw;
+        width: 40vw;
+    }
+
+    #contact h3 {
+        font-size: 3.8vw;
+    }
+
+    #contactContainer {
+        display: block;
+        padding: 4vh 5vw;
+    }
+
+    .formData input {
+        font-size: 4vw;
+    }
+
+    .formData textarea {
+        font-size: 4vw;
+    }
+
+    .formData button {
+        font-size: 4vw;
+    }
+
+    #contactSocial {
+        margin-top: 3vh;
+        display: flex;
+        flex-direction: column;
+        padding-left: 6vw;
+        align-items: center;
+    }
+    
+    #contactSocial a {
+        margin-top: 1vh;
+        text-decoration: none;
+        color: black;
+        font-size: 6vw;
+        font-weight: 900;
+        transition: transform 0.5s;
+        align-items: center;
+    }
+
+    #contactSocial a img {
+        width: 9vw;
+    }
 }
