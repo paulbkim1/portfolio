@@ -430,6 +430,7 @@ header.stickyScroll ul li a {
 
     .projectContainer {
         display: block;
+        margin-bottom: 4vh;
     }
 
     .containerSpecific {
