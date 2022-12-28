@@ -24,7 +24,7 @@ html {
 body {
     background: white;
     min-height: 200vh;
-    animation: transitionIn 3s;
+    animation: transitionIn 2s;
 }
 
 header {
